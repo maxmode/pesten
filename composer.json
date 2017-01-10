@@ -1,0 +1,23 @@
+{
+    "name": "maxmode/pesten",
+    "type": "project",
+    "description": "A demo project of Pesten game",
+    "keywords": ["demo project"],
+    "homepage": "https://github.com/maxmode/pesten/wiki",
+    "license": "MIT",
+    "authors": [
+        {"name": "Maksym Moskvychev", "email": "m.moskvychev@gmail.com"}
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "phpunit/phpunit": "^5.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
