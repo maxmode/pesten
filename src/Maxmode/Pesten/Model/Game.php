@@ -21,12 +21,12 @@ class Game
     /**
      * @var Set
      */
-    protected $drawingStack;
+    private $drawingStack;
 
     /**
      * @var Card
      */
-    protected $topCard;
+    private $topCard;
 
     /**
      * @return Player[]
